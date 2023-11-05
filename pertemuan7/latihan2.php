@@ -1,3 +1,14 @@
+<?php 
+	if (!isset($_GET["gambar"]) ||
+		!isset($_GET["title"]) ||
+		!isset($_GET["alias"]) ||
+		!isset($_GET["studios"]) ||
+		!isset($_GET["episodes"])) {
+		header("Location: latihan1.php");
+		exit;
+	}
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
